@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet" href="formulario.css">
+
+</head>
+<body>
+    <h1>Crie seu personagem de RPG</h1>
+    <form method="post" action="mailto:brunameiliface@hotmail.com">
+	Email do jogador: <input type="email" name="email"> <br>
+	<p> No ano de 536, uma escuridão e pragas terríveis tomaram conta do reino. Você foi escolhido para uma jornada mística e <br> 
+        perigosa atrás de respostas para a maldição que está assolando sua nação. Crie seu personagem e escolha sua origem.</p>
+      Nome do personagem:  <input type="text" name="nome"> <br>
+	Data de nascimento: <input type="date" name="datanascimento"> <br>
+	Classe: 
+	<input type="radio" name="classe" value="c"> Clérigo
+	<input type="radio" name="classe" value="g"> Guerreiro
+	<input type="radio" name="classe" value="m"> Médico
+	<input type="radio" name="classe" value="l"> Ladino
+	<br>
+	<br>
+	Reino de origem: <br>
+	<select name="Reino-Império">
+		<option>Império Romano do Oriente</option>
+		<option>Reino Ostrogótico</option>
+		<option>Reino Visigótico</option>
+		<option>Eslavos</option>
+		<option>Reino Franco</option>
+		<option>Escandinavos</option>
+	</select>
+	<br>
+	<br>
+	Equipamentos iniciais (até 3 opções) <br>
+	<input type="checkbox" name="espada curta" value="sim" > Espada curta
+	<input type="checkbox" name="bíblia" value="sim" > Bíblia
+	<input type="checkbox" name="kit primeiros socorros" value="sim" > Kit primeiros socorros
+	<input type="checkbox" name="crucifixo" value="sim" > Crucifixo
+	<input type="checkbox" name="armadura leve" value="sim" > Armadura leve
+	<input type="checkbox" name="kit de ervas" value="sim" > Kit de ervas
+	<input type="checkbox" name="capa longa" value="sim" > Capa longa
+	<input type="checkbox" name="adaga" value="sim" > Adaga
+	<input type="checkbox" name="lockpick" value="sim" > Lockpick
+	<br>
+	<br>
+Comentários sobre o formulário e a ideia do RPG em si: <br>
+	<textarea name="mensagem"></textarea>
+	<br>
+	<input type="submit">
+
+    </form>
+</body>
+</html>
